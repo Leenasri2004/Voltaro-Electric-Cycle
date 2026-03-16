@@ -1,0 +1,1325 @@
+/* ================= GLOBAL ================= */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: Arial, sans-serif;
+}
+
+body{
+margin:0;
+background:white;
+color:#333;
+line-height:1.6;
+}
+html,body{
+overflow-x:hidden;
+}
+
+/* HEADER */
+
+
+
+.logo{
+  display:flex;
+  align-items:center;
+  gap:8px;
+}
+
+.logo i.fa-bicycle{
+  font-size:28px;      /* icon size */
+  color:#ff7a00;       /* your accent color */
+}
+
+.logo h3{
+  font-size:22px;
+  font-weight:700;
+  letter-spacing:2px;
+}
+.nav ul {
+  display: flex;
+  list-style: none;
+  gap: 15px;
+}
+
+.header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 10px 40px;
+  background: white;
+}
+
+.logo {
+  font-size: 20px;
+  font-weight: bold;
+}
+
+.nav a {
+  margin: 0 14px;
+  text-decoration: none;
+  color: black;
+  font-size: 12px;
+}
+.highlight {
+  color: orange;
+}
+
+
+.right {
+  display: flex;
+  align-items: center;
+  gap: 15px;
+}
+.right i {
+  font-size: 20px;
+}
+
+.icon {
+  cursor: pointer;
+
+}
+
+
+.btn-orange {
+  background: orange;
+  color: white;
+  border: none;
+  padding: 10px 22px;
+  border-radius: 20px;
+  cursor: pointer;
+}
+
+.btn-black{
+background:black;
+color:white !important;
+border:none;
+padding:10px 22px;
+border-radius:20px;
+cursor:pointer;
+}
+
+.btn-white {
+  background: white;
+  color: black;
+  border: none;
+  padding: 10px 22px;
+  border-radius: 20px;
+  cursor: pointer;
+}
+
+
+
+/* ================= HERO ================= */
+
+.service-hero{
+background:#ff6600;
+color:white;
+text-align:center;
+padding:110px 20px;
+}
+
+.service-hero h1{
+font-size:46px;
+margin-bottom:10px;
+}
+
+
+/* ================= DETAILS ================= */
+
+.service-details{
+padding:80px 10%;
+}
+
+.service-container{
+display:flex;
+align-items:center;
+gap:50px;
+flex-wrap:wrap;
+}
+
+.service-text{
+flex:1;
+min-width:280px;
+}
+
+.service-text h2{
+font-size:32px;
+margin-bottom:20px;
+}
+
+.service-text ul{
+list-style:none;
+padding:0;
+}
+
+.service-text li{
+margin:12px 0;
+font-size:17px;
+}
+
+.service-text i{
+color:#ff6600;
+margin-right:10px;
+}
+
+.service-image{
+flex:1;
+text-align:center;
+}
+
+.service-image img{
+width:100%;
+max-width:450px;
+border-radius:10px;
+}
+
+
+/* ================= FEATURES ================= */
+
+.service-features{
+background:#f5f5f5;
+text-align:center;
+padding:80px 10%;
+}
+
+.features-grid{
+display:grid;
+grid-template-columns:repeat(auto-fit,minmax(220px,1fr));
+gap:30px;
+margin-top:40px;
+}
+
+.feature-box{
+background:white;
+padding:30px;
+border-radius:10px;
+box-shadow:0 5px 20px rgba(0,0,0,0.1);
+transition:0.3s;
+}
+
+.feature-box:hover{
+transform:translateY(-8px);
+}
+
+.feature-box i{
+font-size:40px;
+color:#ff6600;
+margin-bottom:10px;
+}
+
+
+/* ================= WARRANTY ================= */
+
+.warranty-section{
+padding:80px 10%;
+background:#fff;
+text-align:center;
+}
+
+.warranty-section h2{
+font-size:36px;
+color:#ff6600;
+margin-bottom:10px;
+}
+
+.subtitle{
+color:#555;
+margin-bottom:50px;
+}
+
+.warranty-cards{
+display:flex;
+gap:30px;
+justify-content:center;
+flex-wrap:wrap;
+}
+
+.warranty-card{
+background:#fff7f0;
+padding:30px;
+width:280px;
+border-radius:10px;
+transition:0.3s;
+box-shadow:0 5px 15px rgba(0,0,0,0.1);
+}
+
+.warranty-card:hover{
+transform:translateY(-8px);
+}
+
+.warranty-card .icon{
+font-size:38px;
+margin-bottom:15px;
+color:#ff6600;
+}
+
+.warranty-card h3{
+color:#ff6600;
+margin-bottom:10px;
+}
+
+.warranty-card p{
+color:#444;
+line-height:1.6;
+}
+
+
+
+/* ===============================
+HOW OUR SERVICE WORKS
+=============================== */
+
+.service-process{
+padding:90px 10%;
+background:#fff5eb;
+text-align:center;
+}
+
+.service-process h2{
+font-size:38px;
+color:#ff6600;
+margin-bottom:60px;
+font-weight:600;
+}
+
+/* GRID */
+
+.process-grid{
+display:grid;
+grid-template-columns:repeat(4,1fr);
+gap:30px;
+}
+
+/* CARD */
+
+.process-card{
+background:white;
+padding:35px 25px;
+border-radius:12px;
+box-shadow:0 8px 25px rgba(0,0,0,0.08);
+transition:0.4s;
+position:relative;
+overflow:hidden;
+}
+
+/* ICON */
+
+.process-card i{
+font-size:40px;
+color:#ff6600;
+margin-bottom:20px;
+display:inline-block;
+}
+
+/* TITLE */
+
+.process-card h3{
+font-size:20px;
+margin-bottom:10px;
+color:#222;
+}
+
+/* TEXT */
+
+.process-card p{
+font-size:15px;
+color:#666;
+line-height:1.6;
+}
+
+/* HOVER EFFECT */
+
+.process-card:hover{
+transform:translateY(-12px);
+box-shadow:0 15px 35px rgba(255,102,0,0.25);
+}
+
+/* ORANGE TOP BORDER ANIMATION */
+
+.process-card::before{
+content:"";
+position:absolute;
+top:0;
+left:0;
+width:0;
+height:4px;
+background:#ff6600;
+transition:0.4s;
+}
+
+.process-card:hover::before{
+width:100%;
+}
+
+
+
+
+/* ===============================
+SERVICE PACKAGES
+=============================== */
+
+.service-packages{
+padding:80px 10%;
+text-align:center;
+background:white;
+}
+
+.service-packages h2{
+font-size:36px;
+color:#ff6600;
+margin-bottom:50px;
+}
+
+.packages-grid{
+display:grid;
+grid-template-columns:repeat(auto-fit,minmax(250px,1fr));
+gap:30px;
+}
+
+.package-card{
+background:white;
+border-radius:15px;
+padding:35px;
+box-shadow:0 10px 25px rgba(0,0,0,0.1);
+transition:0.3s;
+}
+
+.package-card:hover{
+transform:translateY(-10px);
+box-shadow:0 15px 35px rgba(255,102,0,0.3);
+}
+
+.package-card h3{
+color:#ff6600;
+margin-bottom:10px;
+}
+
+.price{
+font-size:28px;
+font-weight:bold;
+margin:15px 0;
+}
+
+.package-card ul{
+list-style:none;
+padding:0;
+}
+
+.package-card ul li{
+margin:8px 0;
+}
+
+.package-btn{
+background:#ff6600;
+color:white;
+border:none;
+padding:10px 25px;
+border-radius:25px;
+cursor:pointer;
+font-weight:bold;
+margin-top:15px;
+}
+
+.package-btn:hover{
+background:black;
+}
+
+/* highlight popular */
+
+.popular{
+border:3px solid #ff6600;
+transform:scale(1.05);
+}
+
+
+/* ===============================
+CUSTOMER REVIEWS
+=============================== */
+
+.service-reviews{
+padding:80px 10%;
+background:#fff5eb;
+text-align:center;
+}
+
+.service-reviews h2{
+font-size:36px;
+color:#ff6600;
+margin-bottom:40px;
+}
+
+.reviews-slider{
+max-width:700px;
+margin:auto;
+position:relative;
+}
+
+.review{
+display:none;
+font-size:18px;
+line-height:1.6;
+}
+
+.review.active{
+display:block;
+animation:fade 1s;
+}
+
+.review h4{
+margin-top:15px;
+color:#ff6600;
+}
+
+@keyframes fade{
+from{opacity:0;}
+to{opacity:1;}
+}
+
+
+/* ===============================
+SERVICE BOOKING
+=============================== */
+
+.service-booking{
+padding:80px 10%;
+text-align:center;
+background:white;
+}
+
+.service-booking h2{
+font-size:36px;
+color:#ff6600;
+margin-bottom:30px;
+}
+
+.booking-form{
+max-width:500px;
+margin:auto;
+display:flex;
+flex-direction:column;
+gap:15px;
+}
+
+.booking-form input,
+.booking-form select,
+.booking-form textarea{
+padding:12px;
+border:1px solid #ddd;
+border-radius:8px;
+font-size:14px;
+}
+
+.booking-form textarea{
+height:120px;
+resize:none;
+}
+
+.booking-form button{
+background:#ff6600;
+color:white;
+border:none;
+padding:12px;
+border-radius:25px;
+cursor:pointer;
+font-weight:bold;
+}
+
+.booking-form button:hover{
+background:black;
+}
+
+
+/* ===============================
+SERVICE CTA
+=============================== */
+
+.service-cta{
+background: linear-gradient(135deg,#ff6600,#ff8c00);
+padding:100px 10%;
+text-align:center;
+color:white;
+}
+
+.service-cta h2{
+font-size:42px;
+margin-bottom:15px;
+font-weight:600;
+}
+
+.service-cta p{
+font-size:18px;
+margin-bottom:30px;
+opacity:0.9;
+}
+
+.cta-btn{
+display:inline-block;
+background:white;
+color:#ff6600;
+padding:14px 35px;
+border-radius:30px;
+font-weight:bold;
+text-decoration:none;
+font-size:16px;
+transition:0.3s;
+}
+
+.cta-btn:hover{
+background:black;
+color:white;
+transform:translateY(-3px);
+box-shadow:0 10px 20px rgba(0,0,0,0.3);
+}
+
+
+/* ================= FOOTER ================= */
+
+/* Reset default margins */
+body {
+  margin: 0;
+  padding: 0;
+}
+
+/* FOOTER EDGE-TO-EDGE */
+.footer {
+  width: 100vw;
+  background: #000;
+  color: #fff;
+  font-family: Arial, sans-serif;
+  box-sizing: border-box;
+  padding: 60px 5px 30px;
+  overflow: hidden;
+}
+
+/* NEWSLETTER SECTION */
+.footer-newsletter {
+  text-align: center;
+  margin-bottom: 50px;
+}
+
+.footer-newsletter .logo {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 10px;
+  margin-bottom: 10px;
+}
+
+.footer-newsletter .logo i {
+  font-size: 40px;
+  color: #ff7a00;
+}
+
+.footer-newsletter .logo h2 {
+  font-size: 20px;
+  margin: 0;
+}
+
+.footer-newsletter p {
+  margin-bottom: 15px;
+  font-size: 16px;
+}
+
+.newsletter-box {
+  display: inline-flex;
+  position: relative;
+}
+
+.newsletter-box input {
+  padding: 14px 20px;
+  border-radius: 40px;
+  border: none;
+  outline: none;
+  min-width: 250px;
+  background: #222;
+  color: #fff;
+}
+
+.newsletter-box input::placeholder {
+  color: #aaa;
+}
+
+.send-btn {
+  position: absolute;
+  right: 0;
+  top: 50%;
+  transform: translate(50%, -50%);
+  width: 50px;
+  height: 50px;
+  border-radius: 50%;
+  border: none;
+  background: #ff7a00;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  cursor: pointer;
+}
+
+.send-btn i {
+  color: #fff;
+  font-size: 18px;
+}
+
+/* FOOTER GRID */
+.footer-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+  max-width: 1200px;
+  margin: 0 auto;
+  gap: 40px;
+  text-align: left;
+  margin-left: 140px !important;
+}
+
+.footer-column h4 {
+  color: #ff7a00;
+  margin-bottom: 15px;
+}
+
+.footer-column ul {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+.footer-column ul li {
+  margin-bottom: 10px;
+  color: #bbb;
+}
+
+.footer-column ul li i {
+  margin-right: 8px;
+  color: #ff7a00;
+}
+
+/* SOCIAL ICONS */
+.social-icons{
+  display:flex;
+  gap:10px;
+  margin-top:5px;
+}
+
+.social-icons a{
+  display:flex;
+  justify-content:center;
+  align-items:center;
+  width:40px;
+  height:40px;
+  border-radius:50%;
+  background:#111;
+  color:#fff;
+  font-size:16px;
+  transition:0.3s;
+  text-decoration:none;
+}
+
+.social-icons a:hover{
+  background:#ff7a00;
+  text-decoration:none;
+}
+/* FOOTER BOTTOM */
+.footer-bottom {
+  border-top: 1px solid #222;
+  margin-top: 40px;
+  padding: 20px 0;
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  align-items: center;
+  max-width: 1200px;
+  margin-left: 0;
+  margin-right: 0;
+  font-size: 14px;
+  color: #888;
+  margin-left: 70px;
+}
+
+.payment-icons img {
+  height: 28px;
+  margin-left: 10px;
+}
+
+
+
+
+
+
+
+/* ===============================
+MODERN UI IMPROVEMENTS
+(TESLA STYLE FEEL)
+=============================== */
+
+
+/* SMOOTH PAGE FEEL */
+
+body{
+scroll-behavior:smooth;
+}
+
+
+
+/* HERO SECTION MODERN LOOK */
+
+.service-hero{
+background:linear-gradient(135deg,#ff6600,#ff8c00);
+padding:130px 20px;
+letter-spacing:1px;
+}
+
+.service-hero h1{
+font-size:54px;
+font-weight:700;
+animation:fadeUp 1s ease;
+}
+
+.service-hero p{
+font-size:18px;
+opacity:0.9;
+animation:fadeUp 1.3s ease;
+}
+
+
+
+/* GLOBAL SECTION SPACING */
+
+section{
+margin-bottom:40px;
+}
+
+
+
+/* IMAGE MODERN STYLE */
+
+.service-image img{
+border-radius:14px;
+box-shadow:0 20px 50px rgba(0,0,0,0.15);
+transition:0.5s;
+}
+
+.service-image img:hover{
+transform:scale(1.05);
+}
+
+
+
+/* TEXT AREA IMPROVEMENT */
+
+.service-text p{
+font-size:17px;
+color:#555;
+margin-bottom:20px;
+}
+
+
+
+/* LIST ITEMS MODERN */
+
+.service-text li{
+display:flex;
+align-items:center;
+font-weight:500;
+}
+
+.service-text li i{
+font-size:18px;
+}
+
+
+
+/* FEATURE CARDS */
+
+.feature-box{
+border-radius:16px;
+padding:35px;
+transition:0.4s;
+}
+
+.feature-box h3{
+margin:15px 0;
+}
+
+.feature-box:hover{
+transform:translateY(-12px);
+box-shadow:0 25px 45px rgba(0,0,0,0.15);
+}
+
+
+
+/* PROCESS SECTION */
+
+.process-card{
+border-radius:16px;
+}
+
+.process-card i{
+background:#fff3ea;
+padding:18px;
+border-radius:50%;
+}
+
+.process-card:hover i{
+background:#ff6600;
+color:white;
+transition:0.3s;
+}
+
+
+
+/* PACKAGE CARDS */
+
+.package-card{
+border-radius:18px;
+padding:40px 35px;
+}
+
+.package-card ul li{
+color:#555;
+}
+
+.package-card:hover{
+transform:translateY(-12px) scale(1.02);
+}
+
+
+
+/* POPULAR PACKAGE */
+
+.popular{
+background:linear-gradient(180deg,#fff,#fff7f0);
+box-shadow:0 20px 50px rgba(255,102,0,0.25);
+}
+
+
+
+/* REVIEW SECTION */
+
+.service-reviews{
+  position:relative;
+}
+
+.reviews-slider{
+  position:relative;
+  max-width:700px;
+  margin:0 auto;
+}
+
+/* stack all reviews on top of each other */
+.review{
+  position:absolute;
+  top:0;
+  left:0;
+  width:100%;
+  opacity:0;
+  transform:translateY(20px);
+  transition:opacity 0.6s ease, transform 0.6s ease;
+}
+
+/* First one visible at start (if JS not loaded yet) */
+.review:first-child{
+  position:relative;
+}
+
+/* active review */
+.review.active{
+  opacity:1;
+  transform:translateY(0);
+  position:relative;
+}
+
+
+
+/* BOOKING FORM */
+
+.booking-form input,
+.booking-form select,
+.booking-form textarea{
+transition:0.3s;
+}
+
+.booking-form input:focus,
+.booking-form select:focus,
+.booking-form textarea:focus{
+border-color:#ff6600;
+box-shadow:0 0 8px rgba(255,102,0,0.3);
+outline:none;
+}
+
+
+
+/* BUTTON STYLE */
+
+.booking-form button,
+.package-btn{
+transition:0.3s;
+letter-spacing:0.5px;
+}
+
+.booking-form button:hover,
+.package-btn:hover{
+transform:translateY(-2px);
+box-shadow:0 10px 20px rgba(0,0,0,0.2);
+}
+
+
+
+/* WARRANTY CARDS */
+
+.warranty-card{
+border-radius:16px;
+}
+
+.warranty-card:hover{
+box-shadow:0 20px 40px rgba(0,0,0,0.15);
+}
+
+
+
+/* CTA SECTION */
+
+.service-cta{
+background:linear-gradient(135deg,#ff6600,#ff8c00);
+border-radius:20px;
+margin:60px 10%;
+box-shadow:0 20px 50px rgba(0,0,0,0.2);
+}
+
+.cta-btn{
+font-size:17px;
+padding:15px 40px;
+}
+
+
+
+/* FADE UP ANIMATION */
+
+@keyframes fadeUp{
+
+0%{
+opacity:0;
+transform:translateY(40px);
+}
+
+100%{
+opacity:1;
+transform:translateY(0);
+}
+
+}
+
+
+
+/* SCROLL ANIMATION */
+
+.feature-box,
+.process-card,
+.package-card,
+.warranty-card,
+.review{
+animation:fadeUp 1s ease;
+}
+
+
+
+/* =============== RESPONSIVE =============== */
+
+/* LAPTOP / SMALL DESKTOP (≤ 1200px) */
+@media (max-width: 1200px){
+  .header{
+    padding:10px 24px;
+  }
+
+  .service-hero{
+    padding:110px 40px;
+  }
+
+  .service-details,
+  .service-features,
+  .warranty-section,
+  .service-process,
+  .service-packages,
+  .service-reviews,
+  .service-booking{
+    padding:70px 8%;
+  }
+
+  .process-grid{
+    gap:24px;
+  }
+
+  .packages-grid{
+    gap:24px;
+  }
+
+  .footer-grid{
+    margin-left:60px !important;
+  }
+
+  .footer-bottom{
+    max-width:1000px;
+    margin-left:40px;
+  }
+}
+
+/* TABLET (≤ 900px) */
+@media (max-width: 900px){
+  /* Header */
+  .header{
+    padding:10px 18px;
+  }
+
+  .nav ul{
+    gap:8px;
+    flex-wrap:wrap;
+  }
+
+  /* Hero */
+  .service-hero{
+    padding:90px 24px;
+  }
+
+  .service-hero h1{
+    font-size:38px;
+  }
+
+  .service-hero p{
+    font-size:16px;
+  }
+
+  /* Details section: stack */
+  .service-details{
+    padding:60px 24px;
+  }
+
+  .service-container{
+    flex-direction:column;
+    gap:30px;
+  }
+
+  .service-text,
+  .service-image{
+    flex:1 1 100%;
+    text-align:left;
+  }
+
+  .service-image img{
+    max-width:100%;
+  }
+
+  /* Features */
+  .service-features{
+    padding:60px 24px;
+  }
+
+  .features-grid{
+    grid-template-columns:repeat(2, minmax(0,1fr));
+  }
+
+  /* Warranty cards */
+  .warranty-section{
+    padding:60px 24px;
+  }
+
+  .warranty-cards{
+    gap:20px;
+  }
+
+  /* Process: 2 columns */
+  .service-process{
+    padding:70px 24px;
+  }
+
+  .process-grid{
+    grid-template-columns:repeat(2, 1fr);
+    gap:24px;
+  }
+
+  /* Packages */
+  .service-packages{
+    padding:70px 24px;
+  }
+
+  /* Reviews */
+  .service-reviews{
+    padding:70px 24px;
+  }
+
+  .reviews-slider{
+    max-width:100%;
+    padding:0 8px;
+  }
+
+  /* Booking */
+  .service-booking{
+    padding:70px 24px;
+  }
+
+  /* CTA */
+  .service-cta{
+    margin:50px 6%;
+    padding:80px 24px;
+  }
+
+  /* Footer */
+  .footer{
+    padding:50px 16px 30px;
+  }
+
+  .footer-grid{
+    margin-left:0 !important;
+    max-width:100%;
+  }
+
+  .footer-bottom{
+    max-width:100%;
+    margin-left:0;
+    margin-right:0;
+    padding:16px 0;
+    flex-direction:column;
+    gap:10px;
+    text-align:center;
+  }
+}
+
+/* MOBILE (≤ 600px) */
+@media (max-width: 600px){
+  /* Header: simplify */
+  .header{
+    padding:8px 12px;
+  }
+
+  .nav ul{
+    display:none; /* optional: replace with burger later */
+  }
+
+  .btn-orange,
+  .btn-black,
+  .btn-white{
+    padding:8px 16px;
+    font-size:12px;
+  }
+
+  /* Hero */
+  .service-hero{
+    padding:70px 16px;
+  }
+
+  .service-hero h1{
+    font-size:30px;
+  }
+
+  .service-hero p{
+    font-size:14px;
+  }
+
+  /* Sections padding */
+  .service-details,
+  .service-features,
+  .warranty-section,
+  .service-process,
+  .service-packages,
+  .service-reviews,
+  .service-booking{
+    padding:50px 16px;
+  }
+
+  /* Details */
+  .service-text h2{
+    font-size:26px;
+  }
+
+  .service-text li{
+    font-size:15px;
+  }
+
+  /* Features grid: 1 column */
+  .features-grid{
+    grid-template-columns:1fr;
+  }
+
+  /* Warranty cards: full width */
+  .warranty-cards{
+    flex-direction:column;
+    align-items:center;
+  }
+
+  .warranty-card{
+    width:100%;
+    max-width:320px;
+  }
+
+  /* Process: 1 column */
+  .process-grid{
+    grid-template-columns:1fr;
+  }
+
+  /* Packages: tighter */
+  .service-packages h2{
+    font-size:28px;
+  }
+
+  .packages-grid{
+    grid-template-columns:1fr;
+  }
+
+  /* Reviews */
+  .service-reviews h2{
+    font-size:28px;
+  }
+
+  .review{
+    padding:24px;
+    font-size:16px;
+  }
+
+  /* Booking form */
+  .booking-form{
+    width:100%;
+  }
+
+  /* CTA */
+  .service-cta{
+    margin:40px 12px;
+    padding:60px 16px;
+  }
+
+  .service-cta h2{
+    font-size:28px;
+  }
+
+  .service-cta p{
+    font-size:16px;
+  }
+
+  .cta-btn{
+    width:100%;
+    text-align:center;
+  }
+
+  /* Footer */
+  .newsletter-box{
+    width:100%;
+  }
+
+  .newsletter-box input{
+    width:100%;
+  }
+
+  .footer-grid{
+    grid-template-columns:1fr;
+    text-align:center;
+  }
+
+  .footer-column{
+    text-align:center;
+  }
+
+  .social-icons{
+    justify-content:center;
+  }
+
+  .footer-bottom{
+    padding-top:16px;
+  }
+}
