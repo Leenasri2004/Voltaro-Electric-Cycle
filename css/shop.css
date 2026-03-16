@@ -313,6 +313,32 @@ cursor:pointer;
   border-color:#f97316;
 }
 
+/* 1) Completely disable any link underline in this section */
+.shop-hero a,
+.bike-section a{
+  text-decoration:none !important;
+  border:0 !important;
+}
+
+/* 2) Make sure linked images don't show any line/border */
+.shop-hero img,
+.bike-section img,
+.bike-card img,
+.bike-card a img{
+  text-decoration:none !important;
+  border:none !important;
+  outline:none !important;
+  display:block;
+}
+
+/* 3) Remove any pseudo-element line from the hero */
+.shop-hero::after{
+  content:none !important;
+  width:0 !important;
+  height:0 !important;
+  background:transparent !important;
+}
+
 /* ================= FOOTER ================= */
 
 /* Reset default margins */
