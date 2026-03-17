@@ -1,0 +1,1419 @@
+/* ======================
+   GLOBAL DARK THEME
+====================== */
+
+body.dark{
+  background:#0f1115;
+  color:#e4e6eb;
+}
+
+body.dark p{
+  color:#b9c0c7;
+}
+
+html,body{
+  overflow-x:hidden;
+}
+
+body.dark h1,
+body.dark h2,
+body.dark h3,
+body.dark h4{
+  color:#ffffff;
+}
+
+/* ======================
+   HEADER
+====================== */
+
+body.dark .header{
+  background:#12151b;
+  border-bottom:1px solid #1f232b;
+}
+
+body.dark .nav a{
+  color:#e4e6eb;
+}
+
+body.dark .nav a:hover{
+  color:#ff7a00;
+}
+
+body.dark .icon{
+  color:#d1d5db;
+}
+
+/* ======================
+   HERO + SPEC CARD
+====================== */
+
+body.dark .hero{
+  background:#0f1115;
+}
+
+body.dark .hero p{
+  color:#c3c7ce;
+}
+
+/* SPEC CARD */
+body.dark .spec-card{
+  background:#1a1f27;
+  box-shadow:0 8px 25px rgba(0,0,0,0.6);
+  border:1px solid #2a2f38;
+}
+
+body.dark .spec{
+  border-right:1px solid #2a2f38;
+}
+
+body.dark .spec:last-child{
+  border-right:none;
+}
+
+body.dark .spec h4{
+  color:#ffffff;
+}
+
+body.dark .spec p{
+  color:#b9c0c7;
+}
+
+/* ======================
+   FEATURES SECTION
+====================== */
+
+body.dark .features-section{
+  background:#12151b;
+}
+
+body.dark .feature-item{
+  background:#1a1f27;
+}
+
+body.dark .icon-circle{
+  background:#ff7a00;
+  color:white;
+}
+
+/* CTA card in features (if any) */
+body.dark .cta-card{
+  background:#1a1f27;
+  border:1px solid #2a2f38;
+}
+
+/* ======================
+   NUMBERS / FILTER
+====================== */
+
+body.dark .numbers{
+  background:#0f1115;
+}
+
+body.dark .filter-card{
+  background:#1a1f27;
+  border:1px solid #2a2f38;
+}
+
+body.dark .slider-group label{
+  color:#d1d5db;
+}
+
+/* ======================
+   TOP PICKS (CYCLE CARDS)
+====================== */
+
+body.dark .top-picks{
+  background:#12151b;
+}
+
+body.dark .cycle-card{
+  background:#1a1f27;
+  border:1px solid #2a2f38;
+}
+
+body.dark .features-list li{
+  color:#c5c9d1;
+}
+
+/* ======================
+   TEST RIDE SECTION
+====================== */
+
+body.dark .test-ride-section{
+  background:#0f1115;
+}
+
+body.dark .test-ride-box{
+  background:#1a1f27;
+  border:1px solid #2a2f38;
+}
+
+body.dark .test-ride-form select,
+body.dark .test-ride-form input{
+  background:#12151b;
+  color:#e4e6eb;
+  border:1px solid #2a2f38;
+}
+
+/* ======================
+   RANGE SECTION
+====================== */
+
+/* base stays same from your main CSS
+   Only dark overrides below changed */
+
+/* RANGE HEADER in dark mode */
+body.dark .range-header h2{
+  color:#ffffff !important;
+}
+
+body.dark .range-header p{
+  color:#b9c0c7 !important;
+}
+
+
+
+body.dark .range-section{
+  background:#0f1115;
+}
+
+/* card a bit lighter than page */
+body.dark .range-card{
+  background:#151922;
+  border:1px solid #2a2f38;
+}
+
+
+/* form labels + selects */
+body.dark .form-group label{
+  color:#e4e6eb;
+}
+
+body.dark .form-group select{
+  background:#12151b;
+  color:#e4e6eb;
+  border:1px solid #2a2f38;
+}
+
+/* toggle buttons */
+body.dark .toggle button{
+  background:#12151b;
+  color:#e4e6eb;
+  border:1px solid #2a2f38;
+}
+
+body.dark .toggle button.active{
+  background:#ff7a00;
+  color:#fff;
+  border:none;
+}
+
+/* result area */
+body.dark .range-result{
+  color:#ffffff;
+}
+
+body.dark .range-value{
+  color:#ffffff;
+}
+
+body.dark .range-value span{
+  color:#ccc;
+}
+
+body.dark .result-title{
+  color:#ddd;
+}
+
+body.dark .result-note{
+  color:#b9c0c7;
+}
+
+/* small meta labels under result */
+body.dark .meta-label{
+  color:#b9c0c7;
+}
+
+body.dark .meta-value{
+  color:#ffffff;
+}
+
+/* links under result */
+body.dark .range-actions a{
+  color:#ff7a00;
+}
+
+
+/* normal (light) result text */
+.range-result{
+  color:#111;
+}
+
+/* dark result area */
+body.dark .range-section{
+  background:#0f1115;
+}
+
+body.dark .range-card{
+  background:#1a1f27;
+  border:1px solid #2a2f38;
+}
+
+body.dark .form-group select{
+  background:#12151b;
+  color:#e4e6eb;
+  border:1px solid #2a2f38;
+}
+
+body.dark .toggle button{
+  background:#12151b;
+  color:#e4e6eb;
+  border:1px solid #2a2f38;
+}
+
+body.dark .range-result{
+  color:#fff;
+}
+
+body.dark .range-value{
+  color:#fff;
+}
+
+body.dark .range-value span{
+  color:#ccc;
+}
+
+body.dark .result-title{
+  color:#ddd;
+}
+
+body.dark .range-actions a{
+  color:#ff7a00;
+}
+
+/* ======================
+   COMPARE SECTION
+====================== */
+
+body.dark .compare{
+  background:#0f1115;
+}
+
+/* remove dark background on whole table
+   so individual cards stand out clearly */
+body.dark .compare-table{
+  background:transparent;
+  border-radius:0;
+  padding:0;
+}
+
+/* specs column */
+
+/* Specs title in orange (optional) */
+body.dark .specs h3{
+  color:white !important ;
+}
+
+/* Specs background slightly darker */
+body.dark .specs{
+  background:#11151b;
+  color:#e4e6eb;
+  border-radius:12px;
+  background-color: #ff7a00 !important;
+}
+body.dark .specs p{
+  border-bottom:1px dashed rgba(255,255,255,0.06);
+}
+
+/* all bike cards use same dark card color */
+body.dark .compare-card{
+  background:#181d26;
+  color:#e4e6eb;
+  border-radius:12px;
+  border:1px solid #2a2f38;
+}
+
+body.dark .compare-card h3{
+  color:#ffffff;
+}
+
+body.dark .compare-card p{
+  border-bottom:1px dashed rgba(255,255,255,0.05);
+}
+
+/* selected state via JS (any card) */
+body.dark .compare-card.selected{
+  background:#000;
+  border:2px solid #ff7a00;
+}
+
+/* ONLY the special highlight card
+   keeps orange background */
+
+
+body.dark .highlight-1 p{
+  border-bottom-color:rgba(255,255,255,0.25);
+}
+
+
+/* remove orange from Cargo */
+body.dark .highlight-1{
+  background:#181d26;      /* same as other cards */
+  color:#e4e6eb;
+  border-color:#2a2f38;
+}
+
+
+
+
+
+/* ======================
+   TESTIMONIAL
+====================== */
+
+body.dark .testimonial{
+  background:#12151b;
+}
+
+body.dark .review{
+  color:#c3c7ce;
+}
+
+/* ======================
+   FAQ + FEATURES STRIP
+====================== */
+
+body.dark .faq-section{
+  background:#0f1115;
+}
+
+body.dark .faq-item{
+  background:#1a1f27;
+  border:1px solid #2a2f38;
+}
+
+body.dark .faq-question{
+  color:#ffffff;
+}
+
+body.dark .faq-answer{
+  color:#c3c7ce;
+}
+
+body.dark .features{
+  background:#12151b;
+}
+
+body.dark .feature{
+  background:#1a1f27;
+  border:1px solid #2a2f38;
+}
+
+/* ======================
+   FOOTER
+====================== */
+
+body.dark .footer{
+  background:#0b0d11;
+  border-top:1px solid #1f232b;
+}
+
+body.dark .footer-nav li{
+  color:#c3c7ce;
+}
+
+body.dark .footer-contact p{
+  color:#c3c7ce;
+}
+
+body.dark .newsletter-box input{
+  background:#12151b;
+  color:white;
+}
+
+body.dark .social-circle,
+body.dark .footer .social-icons a{
+  background:#1a1f27;
+}
+
+/* ======================
+   THEME TOGGLE BUTTON
+====================== */
+
+/* base toggle styles */
+.theme-toggle{
+  position:relative;
+  width:60px;
+  height:30px;
+  border-radius:15px;
+  background:#e5e7eb;
+  display:flex;
+  align-items:center;
+  justify-content:space-between;
+  padding:0 6px;
+  cursor:pointer;
+  border:none;
+  box-sizing:border-box;
+}
+
+/* sliding circle */
+.toggle-circle{
+  position:absolute;
+  width:24px;
+  height:24px;
+  border-radius:50%;
+  left:1px;
+  background:orange; /* light mode */
+  transition:left 0.3s ease, background 0.3s ease;
+}
+
+/* icons */
+.theme-toggle i{
+  position:relative;
+  z-index:2;
+  font-size:16px;
+  color:#111;
+}
+
+/* show sun in light, moon in dark via CSS */
+
+/* light mode (default) */
+.theme-toggle .icon-sun{
+  display:inline-block;
+}
+
+.theme-toggle .icon-moon{
+  display:none;
+}
+
+/* DARK mode */
+body.dark .theme-toggle{
+  background:#1f2937;
+}
+
+/* move circle and recolor */
+body.dark .toggle-circle{
+  left:35px;
+  background:#ff7a00;
+}
+
+/* icons when dark */
+body.dark .theme-toggle .icon-sun{
+  display:none;
+}
+
+body.dark .theme-toggle .icon-moon{
+  display:inline-block;
+  color:#ffe4b5;
+}
+
+
+
+/*ABOUT DARK */
+
+
+/* ======================
+   ABOUT PAGE – GLOBAL
+   (only sections used on about.html)
+====================== */
+
+/* Hero banner – keep image, just darken overlay/text */
+body.dark .about-hero {
+  /* Do NOT remove your background-image from main about.css.
+     This only adjusts overlay color / text color for dark mode. */
+  background-color: #0f1115;        /* fallback under image */
+  color: #f5f5f5;
+}
+
+body.dark .about-hero h1 {
+  color: #ffffff;
+}
+
+body.dark .about-hero p {
+  color: #c3c7ce;
+}
+
+body.dark .breadcrumb a,
+body.dark .breadcrumb span {
+  color: #b9c0c7;
+}
+
+/* ======================
+   ABOUT SECTION
+====================== */
+
+body.dark .about-section {
+  background: #0f1115;
+}
+
+body.dark .about-container {
+  /* keep layout, just avoid pure black */
+  background: transparent;
+}
+
+body.dark .about-text h1 {
+  color: #ffffff;
+}
+
+body.dark .about-text p {
+  color: #b9c0c7;
+}
+
+body.dark #learnBtn {
+  background: #1a1f27;
+  color: #e4e6eb;
+  border: 1px solid #2a2f38;
+}
+
+/* keep image; just a slight dim so text around it reads well */
+body.dark .about-image img {
+  filter: brightness(0.95) contrast(1.05);
+}
+
+/* ======================
+   WHY VOLTARO SECTION
+====================== */
+
+body.dark .why-section {
+  background: #12151b;
+}
+
+body.dark .why-container {
+  background: transparent;
+}
+
+body.dark .why-text h2 {
+  color: #ffffff;
+}
+
+body.dark .why-text p {
+  color: #c3c7ce;
+}
+
+body.dark #knowBtn {
+  background: #1a1f27;
+  color: #e4e6eb;
+  border: 1px solid #2a2f38;
+}
+
+/* keep why image; small dim */
+body.dark .why-image img {
+  filter: brightness(0.95) contrast(1.05);
+}
+
+/* orange highlight stays bright and visible */
+body.dark .orange-bg {
+  background: linear-gradient(135deg, #ff7a00, #facc15);
+}
+
+/* features row under Why Voltaro */
+body.dark .features-row {
+  background: #12151b;
+}
+
+body.dark .features-row .feature {
+  background: #1a1f27;
+  border: 1px solid #2a2f38;
+  color: #e4e6eb;
+}
+
+body.dark .features-row .feature i {
+  color: #ff7a00;
+}
+
+/* ======================
+   STATS SECTION
+====================== */
+
+body.dark .stats-section {
+  background: #0f1115;
+}
+
+body.dark .stats-container .stat h2 {
+  color: #facc15;
+}
+
+body.dark .stats-container .stat p {
+  color: #e4e6eb;
+}
+
+/* ======================
+   TIMELINE
+====================== */
+
+body.dark .timeline-section {
+  background: #12151b;
+}
+
+body.dark .timeline-title {
+  color: #ffffff;
+}
+
+body.dark .timeline-item {
+  background: #1a1f27;
+  border: 1px solid #2a2f38;
+  color: #e4e6eb;
+}
+
+/* ======================
+   SUSTAINABILITY
+====================== */
+
+body.dark .sustainability {
+  background: #0f1115;
+}
+
+body.dark .sustainability-header h2 {
+  color: #ffffff;
+}
+
+body.dark .sustainability-header p {
+  color: #b9c0c7;
+}
+
+body.dark .sustain-card {
+  background: #1a1f27;
+  border: 1px solid #2a2f38;
+  color: #e4e6eb;
+}
+
+/* ======================
+   ACHIEVEMENTS
+====================== */
+
+body.dark .achievements {
+  background: #12151b;
+}
+
+body.dark .achievements-header h2 {
+  color: #ffffff;
+}
+
+body.dark .achievements-header p {
+  color: #c3c7ce;
+}
+
+body.dark .achievement-card {
+  background: #1a1f27;
+  border: 1px solid #2a2f38;
+  color: #e4e6eb;
+}
+
+/* ======================
+   REVIEWS
+====================== */
+
+body.dark .reviews-section {
+  background: #0f1115;
+}
+
+body.dark .section-title {
+  color: #ffffff;
+}
+
+body.dark .review-card {
+  background: #1a1f27;
+  border: 1px solid #2a2f38;
+  color: #e4e6eb;
+}
+
+body.dark .review-header img {
+  filter: brightness(0.95) contrast(1.05);
+}
+
+/* ======================
+   FOOTER (shared)
+====================== */
+
+body.dark .footer {
+  background: #0b0d11;
+  border-top: 1px solid #1f232b;
+  color: #e4e6eb;
+}
+
+body.dark .footer-newsletter {
+  background: #12151b;
+  border-top: 1px solid #1f232b;
+  border-bottom: 1px solid #1f232b;
+}
+
+body.dark .newsletter-box input {
+  background: #12151b;
+  color: #ffffff;
+  border: 1px solid #2a2f38;
+}
+
+body.dark .send-btn {
+  background: #ff7a00;
+  color: #111111;
+}
+
+body.dark .footer-column h4 {
+  color: #ffffff;
+}
+
+body.dark .footer-column li {
+  color: #c3c7ce;
+}
+
+body.dark .footer-bottom {
+  border-top: 1px solid #1f232b;
+}
+
+
+/*SERVICE PAGE*/
+
+/* ======================
+   SERVICE PAGE – HERO
+====================== */
+
+body.dark .service-hero {
+  /* keep your banner image from service.css – this only adjusts color behind/around it */
+  background-color: #0f1115;        /* soft dark, not pure black */
+  color: #f5f5f5;
+}
+
+body.dark .service-hero h1 {
+  color: #ffffff;
+}
+
+body.dark .service-hero p {
+  color: #c3c7ce;
+}
+
+/* ======================
+   SERVICE DETAILS
+====================== */
+
+body.dark .service-details {
+  background: #0f1115;
+}
+
+body.dark .service-container {
+  background: transparent;
+}
+
+body.dark .service-text h2 {
+  color: #ffffff;
+}
+
+body.dark .service-text p {
+  color: #b9c0c7;
+}
+
+body.dark .service-text ul li {
+  color: #d1d5db;
+}
+
+body.dark .service-text ul li i {
+  color: #ff7a00;        /* match brand orange */
+}
+
+/* keep bike image, just a gentle dim for dark mode */
+body.dark .service-image img {
+  filter: brightness(0.95) contrast(1.05);
+}
+
+/* ======================
+   SERVICE FEATURES
+====================== */
+
+body.dark .service-features {
+  background: #12151b;
+}
+
+body.dark .service-features h2 {
+  color: #ffffff;
+}
+
+body.dark .features-grid .feature-box {
+  background: #1a1f27;
+  border: 1px solid #2a2f38;
+  color: #e4e6eb;
+}
+
+body.dark .features-grid .feature-box i {
+  color: #ff7a00;
+}
+
+body.dark .features-grid .feature-box p {
+  color: #c3c7ce;
+}
+
+/* ======================
+   SERVICE PROCESS
+====================== */
+
+body.dark .service-process {
+  background: #0f1115;
+}
+
+body.dark .service-process h2 {
+  color: #ffffff;
+}
+
+body.dark .process-grid .process-card {
+  background: #1a1f27;
+  border: 1px solid #2a2f38;
+  color: #e4e6eb;
+}
+
+body.dark .process-grid .process-card p {
+  color: #c3c7ce;
+}
+
+body.dark .process-grid .process-card i {
+  color: #ff7a00;
+}
+
+/* ======================
+   SERVICE PACKAGES
+====================== */
+
+body.dark .service-packages {
+  background: #12151b;
+}
+
+body.dark .service-packages h2 {
+  color: #ffffff;
+}
+
+body.dark .packages-grid .package-card {
+  background: #1a1f27;
+  border: 1px solid #2a2f38;
+  color: #e4e6eb;
+}
+
+body.dark .packages-grid .package-card.popular {
+  border-color: #ff7a00;
+}
+
+body.dark .packages-grid .package-card .price {
+  color: #facc15;
+}
+
+body.dark .packages-grid .package-card ul li {
+  color: #c5c9d1;
+}
+
+body.dark .package-btn {
+  background: #ff7a00;
+  color: #111111;
+  border: none;
+}
+
+/* ======================
+   SERVICE REVIEWS
+====================== */
+
+body.dark .service-reviews {
+  background: #0f1115;
+}
+
+body.dark .service-reviews h2 {
+  color: #ffffff;
+}
+
+body.dark .reviews-slider .review {
+  background: #1a1f27;
+  border: 1px solid #2a2f38;
+  color: #e4e6eb;
+}
+
+/* ======================
+   SERVICE BOOKING FORM
+====================== */
+
+body.dark .service-booking {
+  background: #12151b;
+}
+
+body.dark .service-booking h2 {
+  color: #ffffff;
+}
+
+body.dark .booking-form input,
+body.dark .booking-form select,
+body.dark .booking-form textarea {
+  background: #0f1115;
+  color: #e4e6eb;
+  border: 1px solid #2a2f38;
+}
+
+body.dark .booking-form input::placeholder,
+body.dark .booking-form textarea::placeholder {
+  color: #6b7280;
+}
+
+body.dark .booking-form button {
+  background: #ff7a00;
+  color: #111111;
+  border: none;
+}
+
+/* ======================
+   WARRANTY SECTION
+====================== */
+
+body.dark .warranty-section {
+  background: #0f1115;
+}
+
+body.dark .warranty-section h2 {
+  color: #ffffff;
+}
+
+body.dark .warranty-section .subtitle {
+  color: #b9c0c7;
+}
+
+body.dark .warranty-cards .warranty-card {
+  background: #1a1f27;
+  border: 1px solid #2a2f38;
+  color: #e4e6eb;
+}
+
+body.dark .warranty-cards .warranty-card p {
+  color: #c3c7ce;
+}
+
+/* ======================
+   SERVICE CTA
+====================== */
+
+body.dark .service-cta {
+  background: #12151b;
+  color: #f5f5f5;
+}
+
+body.dark .service-cta h2 {
+  color: #ffffff;
+}
+
+body.dark .service-cta p {
+  color: #c3c7ce;
+}
+
+body.dark .service-cta .cta-btn {
+  background: #ff7a00;
+  color: #111111;
+  border: none;
+}
+
+
+
+/*SHOP PAGE*/
+
+/* ======================
+   SHOP PAGE – HERO BANNER
+====================== */
+
+body.dark .hero-banner {
+  /* keep your existing background image in shop.css;
+     this only adjusts overlay/text in dark mode */
+  background-color: #0f1115;   /* soft very dark blue/gray, not pure black */
+  color: #f5f5f5;
+}
+
+body.dark .hero-banner .hero-text h3 {
+  color: #c3c7ce;
+}
+
+body.dark .hero-banner .hero-text h1 {
+  color: #ffffff;
+}
+
+body.dark .hero-banner .hero-text p {
+  color: #c3c7ce;
+}
+
+/* ======================
+   BIKE SECTIONS (KIDS / ADULT / SENIOR)
+====================== */
+
+body.dark .bike-section {
+  background: #0f1115;
+}
+
+body.dark .bike-section h2 {
+  color: #ffffff;
+}
+
+body.dark .bike-scroll {
+  background: transparent;
+}
+
+/* card styles for all bike lists */
+body.dark .bike-card {
+  background: #1a1f27;
+  border: 1px solid #2a2f38;
+  border-radius: 12px;
+}
+
+body.dark .bike-card a {
+  color: #e4e6eb;
+}
+
+body.dark .bike-card h3 {
+  color: #ffffff;
+}
+
+body.dark .bike-card p {
+  color: #facc15;          /* highlight price */
+}
+
+/* keep bike images; just slightly dim for dark mode */
+body.dark .bike-card img {
+  display: block;
+  filter: brightness(0.96) contrast(1.05);
+}
+
+/* optional: hover effect for cards */
+body.dark .bike-card:hover {
+  border-color: #ff7a00;
+  box-shadow: 0 10px 25px rgba(0, 0, 0, 0.6);
+}
+
+/* ======================
+   FOOTER (shared)
+====================== */
+
+body.dark .footer {
+  background: #0b0d11;
+  border-top: 1px solid #1f232b;
+  color: #e4e6eb;
+}
+
+body.dark .footer-newsletter {
+  background: #12151b;
+  border-top: 1px solid #1f232b;
+  border-bottom: 1px solid #1f232b;
+}
+
+body.dark .newsletter-box input {
+  background: #12151b;
+  color: #ffffff;
+  border: 1px solid #2a2f38;
+}
+
+body.dark .send-btn {
+  background: #ff7a00;
+  color: #111111;
+  border: none;
+}
+
+body.dark .footer-column h4 {
+  color: #ffffff;
+}
+
+body.dark .footer-column li {
+  color: #c3c7ce;
+}
+
+body.dark .footer-bottom {
+  border-top: 1px solid #1f232b;
+}
+
+
+/*PRODUCT PAGE*/
+
+/* ======================
+   PRODUCT PAGE – MAIN
+====================== */
+
+body.dark .product {
+  background: #0f1115;
+  color: #e4e6eb;
+}
+
+/* Product gallery */
+body.dark .product-gallery {
+  background: transparent;
+}
+
+body.dark .main-image {
+  background: #12151b;           /* behind image if it has transparent edges */
+  border-radius: 12px;
+}
+
+body.dark .thumbnails {
+  background: transparent;
+}
+
+body.dark .thumb {
+  background: #12151b;
+  border-radius: 8px;
+  border: 1px solid #2a2f38;
+}
+
+body.dark .thumb:hover {
+  border-color: #ff7a00;
+}
+
+/* keep images; just a tiny dim if needed */
+body.dark .product-gallery img {
+  filter: brightness(0.97) contrast(1.03);
+}
+
+/* ======================
+   PRODUCT DETAILS
+====================== */
+
+body.dark .details h1 {
+  color: #ffffff;
+}
+
+body.dark .details .price {
+  color: #facc15;
+}
+
+body.dark .details p {
+  color: #c3c7ce;
+}
+
+/* use your existing .btn-black but adjust for dark BG if needed */
+body.dark .details .btn-black {
+  background: #ff7a00;
+  color: #111111;
+  border: none;
+}
+
+/* Specs row */
+body.dark .specs {
+  background: #12151b;
+  border-radius: 12px;
+  border: 1px solid #2a2f38;
+}
+
+body.dark .specs .spec {
+  border-right: 1px solid #2a2f38;
+}
+
+body.dark .specs .spec:last-child {
+  border-right: none;
+}
+
+body.dark .specs .spec h3 {
+  color: #ffffff;
+}
+
+body.dark .specs .spec p {
+  color: #b9c0c7;
+}
+
+/* ======================
+   FEATURES SECTION
+====================== */
+
+body.dark .features {
+  background: #12151b;
+}
+
+body.dark .features h2 {
+  color: #ffffff;
+}
+
+body.dark .features-grid .feature-card {
+  background: #1a1f27;
+  border-radius: 12px;
+  border: 1px solid #2a2f38;
+  color: #e4e6eb;
+}
+
+body.dark .features-grid .feature-card p {
+  color: #c3c7ce;
+}
+
+/* ======================
+   SPECIFICATION TABLE
+====================== */
+
+body.dark .spec-table {
+  background: #0f1115;
+}
+
+body.dark .spec-table h2 {
+  color: #ffffff;
+}
+
+body.dark .spec-table table {
+  background: #1a1f27;
+  border-radius: 12px;
+  border-collapse: collapse;
+}
+
+body.dark .spec-table td {
+  border: 1px solid #2a2f38;
+  color: #e4e6eb;
+}
+
+body.dark .spec-table tr:nth-child(odd) td {
+  background: #181d24;
+}
+
+/* ======================
+   REVIEWS
+====================== */
+
+body.dark .reviews {
+  background: #12151b;
+}
+
+body.dark .reviews h2 {
+  color: #ffffff;
+}
+
+body.dark .review-card {
+  background: #1a1f27;
+  border-radius: 12px;
+  border: 1px solid #2a2f38;
+  color: #e4e6eb;
+}
+
+/* ======================
+   RELATED PRODUCTS
+====================== */
+
+body.dark .related {
+  background: #0f1115;
+}
+
+body.dark .related h2 {
+  color: #ffffff;
+}
+
+body.dark .related-grid .related-card {
+  background: #1a1f27;
+  border-radius: 12px;
+  border: 1px solid #2a2f38;
+  color: #e4e6eb;
+}
+
+body.dark .related-grid .related-card p {
+  color: #e4e6eb;
+}
+
+body.dark .related-grid .related-card img {
+  filter: brightness(0.97) contrast(1.04);
+}
+
+/* ======================
+   STICKY BUY BAR
+====================== */
+
+body.dark .buy-bar {
+  background: #11151b;
+  border-top: 1px solid #2a2f38;
+  color: #e4e6eb;
+}
+
+body.dark .buy-bar p {
+  color: #ffffff;
+}
+
+body.dark .buy-bar .btn-black {
+  background: #ff7a00;
+  color: #111111;
+  border: none;
+}
+
+
+/*CONTACT CSS*/
+/* ======================
+   CONTACT PAGE / SECTION
+====================== */
+
+body.dark .contact-section {
+  background: #0f1115;
+  color: #e4e6eb;
+}
+
+body.dark .contact-container {
+  background: transparent;
+}
+
+/* Header text */
+body.dark .contact-header h2 {
+  color: #ffffff;
+}
+
+body.dark .contact-header p {
+  color: #b9c0c7;
+}
+
+/* Contact info box */
+body.dark .contact-info {
+  background: #1a1f27;
+  border-radius: 12px;
+  border: 1px solid #2a2f38;
+  color: #e4e6eb;
+}
+
+body.dark .contact-info h3 {
+  color: #ffffff;
+}
+
+body.dark .contact-info p {
+  color: #c3c7ce;
+}
+
+body.dark .contact-info i {
+  color: #ff7a00;
+}
+
+/* Social icons */
+body.dark .contact-info .social-icons a {
+  background: #12151b;
+  color: #e4e6eb;
+  border-radius: 50%;
+}
+
+body.dark .contact-info .social-icons a:hover {
+  background: #ff7a00;
+  color: #111111;
+}
+
+/* Contact form card */
+body.dark .contact-form {
+  background: #1a1f27;
+  border-radius: 12px;
+  border: 1px solid #2a2f38;
+  color: #e4e6eb;
+}
+
+body.dark .contact-form h3 {
+  color: #ffffff;
+}
+
+body.dark .contact-form input,
+body.dark .contact-form textarea {
+  background: #0f1115;
+  color: #e4e6eb;
+  border: 1px solid #2a2f38;
+}
+
+body.dark .contact-form input::placeholder,
+body.dark .contact-form textarea::placeholder {
+  color: #6b7280;
+}
+
+body.dark .contact-form button {
+  background: #ff7a00;
+  color: #111111;
+  border: none;
+}
+
+/* Form message text */
+body.dark #formMessage {
+  color: #c3c7ce;
+}
+
+/* Map wrapper */
+body.dark .contact-map {
+  background: #0b0d11;
+  border-radius: 12px;
+  overflow: hidden;
+  border: 1px solid #2a2f38;
+}
+
+/* Let the iframe show normally; no filter so the map stays readable */

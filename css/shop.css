@@ -1,0 +1,784 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: Arial, sans-serif;
+}
+
+body{
+margin:0;
+background:white;
+color:#333;
+line-height:1.6;
+}
+
+html,body{
+overflow-x:hidden;
+}
+
+.hero-banner{
+height:420px;
+background-image:url("../images/banner_image.jfif");
+background-size:cover;
+background-position:center;
+display:flex;
+align-items:center;
+justify-content:flex-end;
+padding-right:80px;
+position:relative;
+}
+
+.hero-banner::before{
+content:"";
+position:absolute;
+top:0;
+left:0;
+width:100%;
+height:100%;
+background:rgba(0,0,0,0.35);
+}
+
+.hero-text{
+background:rgba(80,100,105,0.85);
+padding:40px;
+color:white;
+max-width:350px;
+}
+
+.hero-text h3{
+font-size:14px;
+letter-spacing:2px;
+margin-bottom:10px;
+}
+
+.hero-text h1{
+font-size:36px;
+line-height:1.3;
+margin-bottom:15px;
+}
+
+.hero-text p{
+font-size:16px;
+margin-bottom:20px;
+}
+
+.hero-btn{
+display:inline-block;
+padding:10px 20px;
+background:#ff6a00;
+color:white;
+text-decoration:none;
+font-weight:500;
+border-radius:5px;
+}
+
+.hero-btn:hover{
+background:#e55d00;
+}
+
+/* HEADER */
+
+.logo{
+  display:flex;
+  align-items:center;
+  gap:8px;
+}
+
+.logo i.fa-bicycle{
+  font-size:28px;      
+  color:#ff7a00;       
+}
+
+.logo h3{
+  font-size:22px;
+  font-weight:700;
+  letter-spacing:2px;
+}
+
+.nav ul {
+  display: flex;
+  list-style: none;
+  gap: 15px;
+}
+
+.header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 10px 40px;
+  background: white;
+}
+
+.logo {
+  font-size: 20px;
+  font-weight: bold;
+}
+
+.nav a {
+  margin: 0 14px;
+  text-decoration: none;
+  color: black;
+  font-size: 12px;
+}
+.highlight {
+  color: orange;
+}
+
+
+.right {
+  display: flex;
+  align-items: center;
+  gap: 15px;
+}
+.right i {
+  font-size: 20px;
+}
+
+.icon {
+  cursor: pointer;
+
+}
+
+
+.btn-orange {
+  background: orange;
+  color: white;
+  border: none;
+  padding: 10px 22px;
+  border-radius: 20px;
+  cursor: pointer;
+}
+
+.btn-black{
+background:black;
+color:white !important;
+border:none;
+padding:10px 22px;
+border-radius:20px;
+cursor:pointer;
+}
+
+.btn-white {
+  background: white;
+  color: black;
+  border: none;
+  padding: 10px 22px;
+  border-radius: 20px;
+  cursor: pointer;
+}
+
+
+.shop-hero{
+  height:60vh;
+  background:url("images/cycle_4.webp") center/cover no-repeat;
+  display:flex;
+  flex-direction:column;
+  justify-content:center;
+  align-items:center;
+  color:#fff;
+  text-align:center;
+  padding:0 24px;
+  position:relative;
+}
+
+.shop-hero::before{
+  content:"";
+  position:absolute;
+  inset:0;
+  background:linear-gradient(180deg, rgba(0,0,0,0.35), rgba(0,0,0,0.6));
+}
+
+.shop-hero > *{
+  position:relative;
+  z-index:1;
+}
+
+.shop-hero h1{
+  font-size:2.9rem;
+  font-weight:700;
+  letter-spacing:0.08em;
+  text-transform:uppercase;
+  margin-bottom:6px;
+}
+
+.shop-hero p{
+  font-size:0.98rem;
+  font-weight:400;
+  opacity:0.9;
+}
+
+/* SECTION WRAP */
+.bike-section{
+  padding:56px 8%;
+  background:#f6f6f7;
+}
+
+.bike-section h2{
+  font-size:2rem;
+  margin-bottom:24px;
+  font-weight:600;
+  letter-spacing:0.03em;
+  text-transform:uppercase;
+  color:#111;
+}
+
+.bike-section h2::before{
+  content:"TOP PICKS";
+  display:block;
+  font-size:0.78rem;
+  font-weight:600;
+  letter-spacing:0.16em;
+  color:#ff7a00;
+  margin-bottom:6px;
+}
+
+/* CAROUSEL WRAPPER */
+.bike-carousel{
+  display:flex;
+  align-items:center;
+  gap:12px;
+}
+
+/* HORIZONTAL SCROLL */
+.bike-scroll{
+  display:flex;
+  gap:22px;
+  overflow-x:auto;
+  scroll-behavior:smooth;
+  padding-bottom:6px;
+}
+
+.bike-scroll::-webkit-scrollbar{
+  height:4px;
+}
+
+.bike-scroll::-webkit-scrollbar-track{
+  background:transparent;
+}
+
+.bike-scroll::-webkit-scrollbar-thumb{
+  background:#ddd;
+  border-radius:999px;
+}
+
+/* BIKE CARD */
+.bike-card{
+  min-width:260px;
+  background:#fff;
+  border-radius:16px;
+  overflow:hidden;
+  box-shadow:0 10px 30px rgba(15,23,42,0.08);
+  transition:transform 0.25s ease, box-shadow 0.25s ease, border-color 0.25s ease;
+  border:1px solid #e5e7eb;
+}
+
+.bike-card img{
+  width:100%;
+  height:130px;
+  object-fit:contain;
+  padding:12px 16px 4px;
+  background:radial-gradient(circle at top, #fdf6ee 0, #ffffff 55%);
+  text-decoration:none !important;
+}
+
+.bike-card h3{
+  padding:10px 16px 0;
+  font-size:1rem;
+  font-weight:600;
+  letter-spacing:0.01em;
+  color:#111827;
+  text-decoration:none !important;
+}
+
+.bike-card p{
+  padding:2px 16px 16px;
+  color:#f97316;
+  font-weight:600;
+  font-size:0.95rem;
+}
+
+.bike-card small{
+  display:block;
+  padding:0 16px 14px;
+  font-size:0.78rem;
+  color:#6b7280;
+}
+
+.bike-card:hover{
+  transform:translateY(-6px);
+  box-shadow:0 18px 40px rgba(15,23,42,0.18);
+  border-color:#f97316;
+}
+
+/* Links clean */
+.shop-hero a,
+.bike-section a{
+  text-decoration:none !important;
+  border:0 !important;
+}
+
+.shop-hero img,
+.bike-section img,
+.bike-card img,
+.bike-card a img{
+  text-decoration:none !important;
+  border:none !important;
+  outline:none !important;
+  display:block;
+}
+
+/* ARROW BUTTONS "<" and ">" */
+.bike-prev,
+.bike-next{
+  background:rgba(0,0,0,0.6);
+  color:#fff;
+  border:none;
+  width:36px;
+  height:36px;
+  border-radius:50%;
+  cursor:pointer;
+  font-size:18px;
+  display:flex;
+  align-items:center;
+  justify-content:center;
+  flex-shrink:0;
+}
+
+/* ================= FOOTER ================= */
+
+/* Reset default margins */
+body {
+  margin: 0;
+  padding: 0;
+}
+
+/* FOOTER EDGE-TO-EDGE */
+.footer {
+  width: 100vw;
+  background: #000;
+  color: #fff;
+  font-family: Arial, sans-serif;
+  box-sizing: border-box;
+  padding: 60px 5px 30px;
+  overflow: hidden;
+}
+
+/* NEWSLETTER SECTION */
+.footer-newsletter {
+  text-align: center;
+  margin-bottom: 50px;
+}
+
+.footer-newsletter .logo {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 10px;
+  margin-bottom: 10px;
+}
+
+.footer-newsletter .logo i {
+  font-size: 40px;
+  color: #ff7a00;
+}
+
+.footer-newsletter .logo h2 {
+  font-size: 20px;
+  margin: 0;
+}
+
+.footer-newsletter p {
+  margin-bottom: 15px;
+  font-size: 16px;
+}
+
+.newsletter-box {
+  display: inline-flex;
+  position: relative;
+}
+
+.newsletter-box input {
+  padding: 14px 20px;
+  border-radius: 40px;
+  border: none;
+  outline: none;
+  min-width: 250px;
+  background: #222;
+  color: #fff;
+}
+
+.newsletter-box input::placeholder {
+  color: #aaa;
+}
+
+.send-btn {
+  position: absolute;
+  right: 0;
+  top: 50%;
+  transform: translate(50%, -50%);
+  width: 50px;
+  height: 50px;
+  border-radius: 50%;
+  border: none;
+  background: #ff7a00;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  cursor: pointer;
+}
+
+.send-btn i {
+  color: #fff;
+  font-size: 18px;
+}
+
+/* FOOTER GRID */
+.footer-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+  max-width: 1200px;
+  margin: 0 auto;
+  gap: 40px;
+  text-align: left;
+  margin-left: 140px !important;
+}
+
+.footer-column h4 {
+  color: #ff7a00;
+  margin-bottom: 15px;
+}
+
+.footer-column ul {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+.footer-column ul li {
+  margin-bottom: 10px;
+  color: #bbb;
+}
+
+.footer-column ul li i {
+  margin-right: 8px;
+  color: #ff7a00;
+}
+
+/* SOCIAL ICONS */
+.social-icons{
+  display:flex;
+  gap:10px;
+  margin-top:5px;
+}
+
+.social-icons a{
+  display:flex;
+  justify-content:center;
+  align-items:center;
+  width:40px;
+  height:40px;
+  border-radius:50%;
+  background:#111;
+  color:#fff;
+  font-size:16px;
+  transition:0.3s;
+  text-decoration:none;
+}
+
+.social-icons a:hover{
+  background:#ff7a00;
+  text-decoration:none;
+}
+
+/* FOOTER BOTTOM */
+.footer-bottom {
+  border-top: 1px solid #222;
+  margin-top: 40px;
+  padding: 20px 0;
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  align-items: center;
+  max-width: 1200px;
+  margin-left: 0;
+  margin-right: 0;
+  font-size: 14px;
+  color: #888;
+  margin-left: 70px;
+}
+
+.payment-icons img {
+  height: 28px;
+  margin-left: 10px;
+}
+
+
+
+/* Make RTL toggle visible */
+.rtl-toggle {
+  display: flex;
+  align-items: center;
+  color: orange;
+}
+
+/* ======== RTL BEHAVIOUR (SHOP PAGE) ======== */
+
+/* LTR: push button to far right inside .right */
+.right .btn-orange {
+  margin-left: auto;
+}
+
+/* IMPORTANT: in RTL, DO NOT reverse .right, just flip margin side */
+body.rtl .right {
+  flex-direction: row; /* keep natural order in code */
+}
+
+body.rtl .right .btn-orange {
+  margin-left: 0;
+  margin-right: auto;  /* push to visual right in RTL */
+}
+
+/* Nav and logo mirroring */
+body.rtl .nav ul {
+  flex-direction: row-reverse;
+}
+
+body.rtl .logo {
+  flex-direction: row-reverse;
+}
+
+/* Optional: make whole header text direction RTL */
+body.rtl .header {
+  direction: rtl;
+}
+
+
+
+
+
+/* Hero/banner tweaks */
+body.rtl .hero-banner {
+  justify-content: flex-start;
+  padding-right: 0;
+  padding-left: 80px;
+}
+
+body.rtl .hero-text,
+body.rtl .shop-hero,
+body.rtl .bike-section,
+body.rtl .footer {
+  text-align: right;
+}
+
+/* Footer */
+body.rtl .footer-grid {
+  direction: rtl;
+  text-align: right;
+}
+
+body.rtl .footer-column ul li i {
+  margin-right: 0;
+  margin-left: 8px;
+}
+
+body.rtl .footer-bottom {
+  direction: rtl;
+  flex-direction: row-reverse;
+}
+
+
+
+/* =============== RESPONSIVE =============== */
+
+/* LAPTOP / SMALL DESKTOP */
+@media (max-width: 1200px){
+  .header{
+    padding:10px 24px;
+  }
+
+  .hero-banner{
+    padding-right:40px;
+    height:380px;
+  }
+
+  .hero-text{
+    max-width:320px;
+    padding:30px;
+  }
+
+  .shop-hero h1{
+    font-size:42px;
+  }
+
+  .bike-section{
+    padding:50px 6%;
+  }
+
+  .footer-grid{
+    margin-left:60px !important;
+  }
+
+  .footer-bottom{
+    max-width:1000px;
+    margin-left:40px;
+  }
+}
+
+/* TABLET */
+@media (max-width: 900px){
+  /* Header */
+  .header{
+    padding:10px 18px;
+  }
+
+  .nav ul{
+    gap:8px;
+    flex-wrap:wrap;
+  }
+
+  /* Hero banner: center text under overlay */
+  .hero-banner{
+    justify-content:center;
+    padding-right:0;
+    text-align:center;
+  }
+
+  .hero-text{
+    max-width:90%;
+  }
+
+  /* Shop hero */
+  .shop-hero{
+    height:50vh;
+    padding:0 16px;
+  }
+
+  .shop-hero h1{
+    font-size:38px;
+  }
+
+  /* Bikes row */
+  .bike-section{
+    padding:50px 20px;
+  }
+
+  .bike-scroll{
+    gap:18px;
+  }
+
+  .bike-card{
+    min-width:220px;
+  }
+
+  /* Footer */
+  .footer{
+    padding:50px 16px 30px;
+  }
+
+  .footer-grid{
+    margin-left:0 !important;
+    max-width:100%;
+  }
+
+  .footer-bottom{
+    max-width:100%;
+    margin-left:0;
+    margin-right:0;
+    padding:16px 0;
+    flex-direction:column;
+    gap:10px;
+    text-align:center;
+  }
+}
+
+/* MOBILE */
+@media (max-width: 600px){
+  /* Header simplification */
+  .header{
+    padding:8px 12px;
+  }
+
+  .nav ul{
+    display:none; /* optional: replace with burger later */
+  }
+
+  .btn-orange,
+  .btn-black,
+  .btn-white{
+    padding:8px 16px;
+    font-size:12px;
+  }
+
+  /* Hero banner */
+  .hero-banner{
+    height:320px;
+    padding:0 16px;
+  }
+
+  .hero-text{
+    padding:20px;
+  }
+
+  .hero-text h1{
+    font-size:26px;
+  }
+
+  .hero-text p{
+    font-size:14px;
+  }
+
+  /* Shop hero */
+  .shop-hero{
+    height:40vh;
+    padding:0 12px;
+  }
+
+  .shop-hero h1{
+    font-size:30px;
+  }
+
+  /* Bikes */
+  .bike-section{
+    padding:40px 16px;
+  }
+
+  .bike-section h2{
+    font-size:24px;
+  }
+
+  .bike-card{
+    min-width:200px;
+  }
+
+  /* Footer */
+  .footer-newsletter p{
+    font-size:14px;
+  }
+
+  .newsletter-box{
+    width:100%;
+  }
+
+  .newsletter-box input{
+    width:100%;
+  }
+
+  .footer-grid{
+    grid-template-columns:1fr;
+    text-align:center;
+  }
+
+  .footer-column{
+    text-align:center;
+  }
+
+  .social-icons{
+    justify-content:center;
+  }
+
+  .footer-bottom{
+    padding-top:16px;
+  }
+}
+
+
